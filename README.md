@@ -1,5 +1,14 @@
 # Instap
-A social network app for sharing photos and videos built with Firebase.
+A real time social network app for sharing photos and videos built with Firebase with caching functionality.
+
+# Features
+- Sign in & sign up (facebook & google+ authentication coming soon)
+- Post text with photo and emojis (video coming soon)
+- Like and Comment
+- User Profile with followers number and previous posts
+- Follow Other users and see what they share
+- Search for any user (searching for post coming soon)
+- Logout
 
 # Screenshots
 
@@ -19,11 +28,3 @@ A social network app for sharing photos and videos built with Firebase.
 ## Share + Camera
 
 More screenshots coming soon :)
-
-# Requirements
-* iOS 9.0+
-* Xcode 9.0+
-* Swift 4.0+
-
-# Author
-Sherif Kamal, sherif.kamal.salem@gmail.com
