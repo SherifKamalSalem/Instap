@@ -1,5 +1,5 @@
 # Instap
-A real time social network app for sharing photos and videos built with Firebase with caching functionality.
+A real time social network app for sharing photos and videos built with Firebase with caching functionality (All UI created programmatically).
 
 # Features
 - Sign in & sign up (facebook & google+ authentication coming soon)
