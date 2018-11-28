@@ -1,11 +1,5 @@
-# InstagramClone
-A detailed clone of the Instagram app built with Firebase.
-
-# Installation
-1. Clone the repository
-2. Create a new project in your Firebase [console](https://console.firebase.google.com/) by clicking "Add project"
-3. Add the `GoogleService-Info.plist` file downloaded from Step 2 to the `InstagramClone` directory
-4. Run the `InstagramClone` target on your device/simulator
+# Instap
+A social network app for sharing photos and videos built with Firebase.
 
 # Screenshots
 
@@ -32,7 +26,4 @@ More screenshots coming soon :)
 * Swift 4.0+
 
 # Author
-Mac Gallagher, jmgallagher36@gmail.com
-
-# License
-InstagramClone is available under the [MIT License](LICENSE), see LICENSE for more infomation.
+Sherif Kamal, sherif.kamal.salem@gmail.com
