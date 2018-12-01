@@ -17,6 +17,8 @@ class SharePhotoController: UIViewController {
         }
     }
     
+    
+    
     private let imageView: UIImageView = {
         let iv = UIImageView()
         iv.backgroundColor = .red

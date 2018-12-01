@@ -8,6 +8,7 @@
 
 import UIKit
 import Photos
+import AVFoundation
 
 class PhotoSelectorController: UICollectionViewController {
     
@@ -41,6 +42,13 @@ class PhotoSelectorController: UICollectionViewController {
         let sortDescriptor = NSSortDescriptor(key: "creationDate", ascending: false)
         fetchOptions.sortDescriptors = [sortDescriptor]
         return fetchOptions
+    }
+    
+    func handleSelectPhoto() {
+        let pickerController = UIImagePickerController()
+        pickerController.delegate = self
+        pickerController.mediaTypes = ["public.image", "public.movie"]
+        present(pickerController, animated: true, completion: nil)
     }
     
     private func fetchPhotos() {
